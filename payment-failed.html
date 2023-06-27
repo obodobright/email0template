@@ -1,18 +1,75 @@
-const EmailTemplate = () => {
-    return (
-        <table
-            cellPadding="0"
-            cellSpacing="0"
-            style={{
-                fontFamily: 'Arial, sans-serif',
-                fontSize: '14px',
-                color: '#000',
-                maxWidth: '600px',
-                margin: '0 auto',
-                padding: '20px',
-            }}
-        >
-            <tr >
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        td {
+            padding: 0.7rem;
+            text-align: center;
+        }
+        
+        h3 {
+            margin-top: 1rem;
+            color: #344054;
+            font-size: 30px;
+        }
+        
+        h4 {
+            color: #344054;
+            font-size: 20px;
+        }
+        
+        p {
+            color: #667085;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        
+        h3.amount {
+            background: rgba(155, 6, 6, 0.16);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: #E72424;
+            font-size: 30px;
+            line-height: 28px;
+        }
+        
+        p.payment-failed {
+            color: #FFB82E;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        
+        .footer-links a {
+            color: #667085;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        
+        .footer-text {
+            color: #667085;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            text-align: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0">
+        <tr >
                 <td style={{ paddingTop: "1.2rem", paddingBottom: '20px', textAlign: 'center' }}>
                     <a href="https://new-staging.yebora.com">
                         <svg
@@ -86,65 +143,43 @@ const EmailTemplate = () => {
                             </defs>
                         </svg>
                     </a>
-                    {/* <h1 style={{ color: "#1B3554", fontSize: "2rem", marginTop: "1.2rem", marginBottom: "1.3rem" }}>Forgot Password</h1> */}
                 </td>
             </tr>
-
-            <tr>
-                <td style={{ textAlign: "center", padding: "0.7rem" }}>
-                    <h3 style={{ marginTop: "1rem", color: "#344054", fontSize: "30px" }}>Payment Failed</h3>
-
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3 style={{ background: "rgba(155, 6, 6, 0.16)", padding: "1rem", marginBottom: "1rem", textAlign: "center", color: "#E72424", fontSize: "30px", lineHeight: "28px" }}>NGN 80,000</h3>
-                </td>
-            </tr>
-            <tr>
-                <td style={{ textAlign: "center", padding: "0.7rem" }}>
-                    <h4 style={{ color: "#344054", fontSize: "20px" }}>Hi Chucho</h4>
-                    <p style={{ color: "#667085", fontSize: "16px", lineHeight: "28px" }}>Sorry! there was a failed attempt to make donation to Community Campaign. You can always try again.</p>
-                </td>
-            </tr>
-            <tr>
-                <td style={{ textAlign: "center", padding: "0.7rem" }}>
-                    <p style={{ color: "#FFB82E", fontSize: "16px", lineHeight: "28px" }}>You can reach out to us if any issue is encountered based on the payment made.</p>
-                </td>
-            </tr>
-
-            {/* <tr>
-                <td>
-                    <div style={{ color: "#353945", fontSize: "16px", lineHeight: "28px", display: "flex", alignItems: "center", justifyContent: "center", margin: "40px" }}>
-                        <p>That wasn’t you? <span style={{ color: "#1B75BC" }}>click here</span> </p>
-                    </div>
-                </td>
-            </tr> */}
-            <tr>
-                <td>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "20px", borderTop: '1px solid #ccc', gap: "20px", paddingTop: '20px', textAlign: 'center' }}>
-                        <a href="https://yebora.com/terms" style={{ color: "#667085", fontSize: "14px", textDecoration: "none", }}>
-                            <p>Terms</p>
-                        </a>
-                        <a href="https://yebora.com/terms" style={{ color: "#667085", fontSize: "14px", textDecoration: "none", }}>
-                            <p>Privacy</p>
-                        </a>
-                        <a href="https://yebora.com/terms" style={{ color: "#667085", fontSize: "14px", textDecoration: "none", }}>
-                            <p>Cookies</p>
-                        </a>
-                        <a href="https://yebora.com/contact" style={{ color: "#667085", fontSize: "14px", textDecoration: "none", }}>
-                            <p>Contact us</p>
-                        </a>
-
-                    </div>
-                    <div style={{ color: "#667085", fontSize: "14px", display: "flex", alignItems: "center", justifyContent: "center", marginTop: "20px", textAlign: 'center', flexDirection: "column" }}>
-                        <p>© 2023 Yebora</p>
-                        <p>Hello@yebox.io</p>
-                    </div>
-                </td>
-            </tr>
-        </table>
-    );
-};
-
-export default EmailTemplate;
+        <tr>
+            <td>
+                <h3>Payment Failed</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3 class="amount">NGN 80,000</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Hi Chucho</h4>
+                <p>Sorry! There was a failed attempt to make a donation to the Community Campaign. You can always try again.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="payment-failed">You can reach out to us if any issue is encountered based on the payment made.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="footer-links">
+                    <a href="https://yebora.com/terms">Terms</a>
+                    <a href="https://yebora.com/terms">Privacy</a>
+                    <a href="https://yebora.com/terms">Cookies</a>
+                    <a href="https://yebora.com/contact">Contact us</a>
+                </div>
+                <div class="footer-text">
+                    <p>© 2023 Yebora</p>
+                    <p>Hello@yebox.io</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
