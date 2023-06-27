@@ -1,18 +1,86 @@
-const EmailTemplate = () => {
-    return (
-        <table
-            cellPadding="0"
-            cellSpacing="0"
-            style={{
-                fontFamily: 'Arial, sans-serif',
-                fontSize: '14px',
-                color: '#000',
-                maxWidth: '600px',
-                margin: '0 auto',
-                padding: '20px',
-            }}
-        >
-            <tr >
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        td {
+            padding: 0.7rem;
+            text-align: center;
+        }
+        
+        h3 {
+            margin-top: 1rem;
+            color: #344054;
+            font-size: 30px;
+        }
+        
+        h4 {
+            color: #344054;
+            font-size: 20px;
+        }
+        
+        p {
+            color: #667085;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        
+        span {
+            color: #328BE0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        
+        h3.amount {
+            background: rgba(6, 155, 64, 0.16);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: #069B40;
+            font-size: 30px;
+            line-height: 28px;
+        }
+        
+        td.payment-medium {
+            padding: 20px;
+            background: #363641;
+            text-align: center;
+        }
+        
+        h3.payment-medium-title {
+            color: #FFFFFF;
+        }
+        
+        .footer-links a {
+            color: #667085;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        
+        .footer-text {
+            color: #667085;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            text-align: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0">
+        <tr >
                 <td style={{ paddingTop: "1.2rem", paddingBottom: '20px', textAlign: 'center' }}>
                     <a href="https://new-staging.yebora.com">
                         <svg
@@ -86,9 +154,9 @@ const EmailTemplate = () => {
                             </defs>
                         </svg>
                     </a>
-                    </td>
+                </td>
             </tr>
-            <tr>
+         <tr>
                 <td>
                     <svg width="623" height="192" viewBox="0 0 623 192" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                         <rect width="623" height="192" rx="5" fill="url(#pattern0)" />
@@ -102,60 +170,41 @@ const EmailTemplate = () => {
 
                 </td>
             </tr>
-            <tr>
-                <td style={{ textAlign: "center", padding: "0.7rem" }}>
-                    <h3 style={{ marginTop: "1rem", color: "#344054", fontSize: "30px" }}>Payment Received</h3>
-
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3 style={{ background: "rgba(6, 155, 64, 0.16)", padding: "1rem", marginBottom: "1rem", textAlign: "center", color: "#069B40", fontSize: "30px", lineHeight: "28px" }}>NGN 80,000</h3>
-                </td>
-            </tr>
-            <tr>
-                <td style={{ textAlign: "center", padding: "0.7rem" }}>
-                    <h4 style={{ color: "#344054", fontSize: "20px" }}>Hi Chucho</h4>
-                    <p style={{ color: "#667085", fontSize: "16px", lineHeight: "28px" }}>We can now confirm a payment for the sum of NGN 80,000 made on for community campaign</p>
-                </td>
-            </tr>
-            <tr>
-                <td style={{ padding: '20px', background: "#363641", textAlign: "center" }}>
-                    <h3 style={{ color: "#FFFFFF" }}>Payment Medium: <span>Paystack</span> </h3>
-                </td>
-            </tr>
-            {/* <tr>
-                <td>
-                    <div style={{ color: "#353945", fontSize: "16px", lineHeight: "28px", display: "flex", alignItems: "center", justifyContent: "center", margin: "40px" }}>
-                        <p>That wasn’t you? <span style={{ color: "#1B75BC" }}>click here</span> </p>
-                    </div>
-                </td>
-            </tr> */}
-            <tr>
-                <td>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "20px", borderTop: '1px solid #ccc', gap: "20px", paddingTop: '20px', textAlign: 'center' }}>
-                        <a href="https://yebora.com/terms" style={{ color: "#667085", fontSize: "14px", textDecoration: "none", }}>
-                            <p>Terms</p>
-                        </a>
-                        <a href="https://yebora.com/terms" style={{ color: "#667085", fontSize: "14px", textDecoration: "none", }}>
-                            <p>Privacy</p>
-                        </a>
-                        <a href="https://yebora.com/terms" style={{ color: "#667085", fontSize: "14px", textDecoration: "none", }}>
-                            <p>Cookies</p>
-                        </a>
-                        <a href="https://yebora.com/contact" style={{ color: "#667085", fontSize: "14px", textDecoration: "none", }}>
-                            <p>Contact us</p>
-                        </a>
-
-                    </div>
-                    <div style={{ color: "#667085", fontSize: "14px", display: "flex", alignItems: "center", justifyContent: "center", marginTop: "20px", textAlign: 'center', flexDirection: "column" }}>
-                        <p>© 2023 Yebora</p>
-                        <p>Hello@yebox.io</p>
-                    </div>
-                </td>
-            </tr>
-        </table>
-    );
-};
-
-export default EmailTemplate;
+        <tr>
+            <td>
+                <h3>Payment Received</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3 class="amount">NGN 80,000</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Hi Chucho</h4>
+                <p>We can now confirm payment for the sum of NGN 80,000 made for the community campaign.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="payment-medium">
+                <h3 class="payment-medium-title">Payment Medium: <span>Paystack</span></h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="footer-links">
+                    <a href="https://yebora.com/terms">Terms</a>
+                    <a href="https://yebora.com/terms">Privacy</a>
+                    <a href="https://yebora.com/terms">Cookies</a>
+                    <a href="https://yebora.com/contact">Contact us</a>
+                </div>
+                <div class="footer-text">
+                    <p>© 2023 Yebora</p>
+                    <p>Hello@yebox.io</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
