@@ -1,0 +1,134 @@
+<mjml>
+  <mj-head>
+    <mj-title>Yebox</mj-title>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@800;900;1000&display=swap"
+    />
+  </mj-head>
+
+  <mj-body>
+    <mj-container background-color="#131313">
+      <mj-section padding-top="50px">
+        <mj-column vertical-align="top" width="50%" padding-top="55px">
+          <mj-image align="left" width="120px" src="img/yebox.svg" alt="" />
+        </mj-column>
+        <mj-column vertical-align="top" width="50%">
+          <mj-image align="left" width="148px" src="img/box.svg" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column vertical-align="top" width="100%">
+          <mj-text
+            font-size="40px"
+            line-height="48px"
+            font-weight="700"
+            color="#C5C8BA"
+            text-transform="capitalize"
+            padding-top="40px"
+            font-family="Inter"
+          >
+            Thank You for <br />
+            Reaching Out to <br />
+            Yebox Technologies
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-divider border-width="0.1px" border-color="#2E3228" width="100%"></mj-divider>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="100px">
+        <mj-column vertical-align="top" width="100%">
+          <mj-text padding-top="0px" color="#868686">
+            <p
+              style="
+                color: #a9ad9f;
+                font-size: 18px;
+                line-height: 23.4px;
+                font-family: Inter;
+                font-weight: 500;
+              "
+            >
+              Dear [Enter Name Here]
+            </p>
+            <p
+              style="
+                color: #a9ad9f;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Thank you for your interest in becoming a part of our team as a [Role Name] at Yebox.
+              Your application has been received and is under review. We greatly value your
+              qualifications and enthusiasm. In the upcoming days, we will be closely evaluating
+              your application. If your qualifications align with our requirements, we will be in
+              touch to discuss the next steps in the process.
+            </p>
+
+            <p
+              style="
+                color: #a9ad9f;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              We appreciate your consideration of Yebox as a potential employer and anticipate the
+              opportunity to connect with you further.
+            </p>
+
+            <p
+              style="
+                color: #a9ad9f;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                padding-top: 30px;
+                font-weight: 400;
+              "
+            >
+              Best regards
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#111">
+        <mj-column padding="30px" width="100%" vertical-align="top">
+          <mj-text align="center">
+            <a href="https://www.linkedin.com/company/yebox/"
+              ><img src="img/linkedin.svg" alt="" width="30px" style="padding-right: 40px"
+            /></a>
+
+            <a href="https://twitter.com/yebox_io?s=21&t=oicDoAvJ1y-PLb1Lnq4xwg"
+              ><img src="img/twitter.svg" alt="" width="30px" style="padding-right: 40px"
+            /></a>
+
+            <a href="https://instagram.com/yebox_io?igshid=YmMyMTA2M2Y="
+              ><img src="img/instagram.svg" alt="" width="30px"
+            /></a>
+          </mj-text>
+
+          <mj-text
+            align="center"
+            font-size="12px"
+            letter-spacing="0.4px"
+            color="#595D5D"
+            line-height="16px"
+            font-family="Inter"
+          >
+            <p style="color: #94999a">&copy 2023 Yebox Technologies. All Right Reserved</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
