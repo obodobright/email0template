@@ -1,0 +1,162 @@
+<mjml>
+  <mj-head>
+    <mj-title>Yebora</mj-title>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@800;900;1000&display=swap"
+    />
+  </mj-head>
+
+  <mj-body>
+    <mj-container background-color="#fff">
+      <mj-section>
+        <mj-column vertical-align="top" width="50%">
+          <mj-image
+            align="left"
+            width="120px"
+            src="https://d148vllt214ymv.cloudfront.net/Frame.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#B1D9C4">
+        <mj-column>
+          <!-- Text -->
+          <mj-text
+            font-size="30px"
+            line-height="48px"
+            font-weight="700"
+            color="#1B3554"
+            text-transform="capitalize"
+            padding-top="20px"
+            font-family="Inter"
+            align="left"
+          >
+            Community <br />
+            Campaign
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <!-- Image -->
+
+          <mj-image
+            align="left"
+            width="120px"
+            src="https://d148vllt214ymv.cloudfront.net/pinkwithcoins.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column vertical-align="top" width="100%">
+          <mj-text
+            font-size="40px"
+            line-height="48px"
+            font-weight="700"
+            color="#1B3554"
+            text-transform="capitalize"
+            padding-top="0px"
+            font-family="Inter"
+            align="center"
+          >
+            Campaign Created
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column vertical-align="top" width="100%">
+          <mj-text color="#868686">
+            <p
+              style="
+                color: #344054;
+                font-size: 18px;
+                line-height: 23.4px;
+                font-family: Inter;
+                font-weight: 700;
+                text-align: center;
+              "
+            >
+              Hi {{firstName}}
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+                text-align: center;
+              "
+            >
+              You have successfully created a
+              <span style="color: #1b75bc">Community campaign</span>. To continue with the campaign
+              setup, Kindly visit your dashboard by clicking on the button below.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="1px">
+        <mj-column vertical-align="top" width="100%">
+          <mj-button
+            href="https://yebora.com/dashboard"
+            align="center"
+            background-color="#1B75BC"
+            color="#ffffff"
+            font-size="16px"
+            border-radius="20px"
+            font-family="Inter"
+            font-weight="700"
+          >
+            Go to dashboard
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-divider border-width="0.1px" border-color="#2E3228" width="100%"></mj-divider>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#E4E7EC">
+        <mj-column padding="30px" width="100%" vertical-align="top">
+          <mj-text align="center">
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Terms</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Privacy</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Cookies</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/contact"
+              >Contact us</mj-link
+            >
+          </mj-text>
+
+          <mj-text
+            align="center"
+            font-size="12px"
+            letter-spacing="0.4px"
+            color="#595D5D"
+            line-height="16px"
+            font-family="Inter"
+          >
+            <p style="color: #94999a">
+              &copy; 2023 Yebora <br />
+              @hello.yebora.io
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

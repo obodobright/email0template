@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <script src="script.js"></script>
+
+    <style>
+      h3[title]::after {
+        content: attr(title);
+        display: none;
+        background-color: #333; /* Background color of the tooltip */
+        color: red; /* Text color of the tooltip */
+        padding: 5px; /* Padding inside the tooltip */
+        border-radius: 4px; /* Rounded corners */
+        position: absolute;
+        z-index: 1;
+        bottom: 100%; /* Position above the element */
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0; /* Initially hidden */
+        transition: opacity 0.3s; /* Fade-in transition */
+      }
+
+      /* Show the tooltip on hover */
+      h3[title]:hover::after {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h3>Hello contact</h3>
+      <div id="container">
+        <h3 title="My name is Bright" id="hello">Hello P,</h3>
+        <p id="greetings">Trust you are good</p>
+        <p id="greetings">What's good mate</p>
+        <p id="greetings">Sure I am well too.</p>
+        <section id="sectionContainer">
+          <div>role</div>
+          <div
+            id="test"
+            data-full-name="Obodo Bright"
+            data-address="Ogunleti Street"
+            data-test="My html test is here"
+          ></div>
+        </section>
+      </div>
+    </section>
+
+    <script>
+      const body = document.body;
+
+      //   create a new element and append to the
+      const div = document.createElement("div");
+      const h1 = document.createElement("h1");
+      const p = document.createElement("p");
+      const a = document.createElement("a");
+      div.innerText = "I love my friends";
+      h1.innerText = "Happy Birthday ";
+      a.innerText = "https://obodobright@vercel.app";
+
+      p.innerText = "Bright is the best developer you can ever think of";
+      body.appendChild(h1);
+      body.appendChild(a);
+      body.appendChild(div);
+
+      //   modifying the html content with JS.
+
+      const helloHeader = document.querySelector("#hello");
+      const greetings = document.querySelector("#greetings");
+      const container = document.querySelector("#container");
+      helloHeader.textContent = "Hello Bright";
+      console.log(greetings, "greetings");
+
+      console.log(greetings.getAttribute("id"));
+      console.log(helloHeader.getAttribute("id"));
+      console.log(helloHeader.getAttribute("title"));
+
+      const sectionContainer = document.querySelector("#sectionContainer");
+      const getAttribute = sectionContainer.setAttribute("title", "sections");
+      const seeAttribute = sectionContainer.getAttribute("title");
+
+      const testDiv = document.querySelector("#test");
+      testDiv.dataset.test = "I am testing this features";
+      testDiv.dataset.gender = "Male";
+
+      console.log(testDiv.dataset);
+
+      console.log(seeAttribute);
+
+      //   to remove content.
+      //   container.removeChild(helloHeader);
+      //   helloHeader.remove();
+    </script>
+  </body>
+</html>
