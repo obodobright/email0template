@@ -1,0 +1,224 @@
+<mjml>
+  <mj-head>
+    <mj-title>Yebora</mj-title>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@800;900;1000&display=swap"
+    />
+  </mj-head>
+
+  <mj-body>
+    <mj-container background-color="#fff">
+      <mj-section>
+        <mj-column vertical-align="top" width="50%">
+          <mj-image
+            align="left"
+            width="120px"
+            src="https://d148vllt214ymv.cloudfront.net/Frame.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="1px">
+        <mj-column vertical-align="top" width="100%">
+          <mj-text padding-top="0px" color="#868686">
+            <p
+              style="
+                color: #344054;
+                font-size: 18px;
+                line-height: 23.4px;
+                font-family: Inter;
+                font-weight: 500;
+              "
+            >
+              Dear {{firstName}},
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Exciting News!
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              We are thrilled to inform you that your pledge for the {{campaignName}} campaign on
+              Yebora has successfully been redeemed.
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Pledged Amount : {{amountPledged}}
+            </p>
+
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Campaign Name: {{campaignName}}
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Campaign Type: {{campaignType}}
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Date of Donation: {{createdAt}}
+            </p>
+
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Your contribution has played a crucial role in making this campaign a success. Thanks
+              to your support, we've been able to reach our funding goal and achieve our mission
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              We want to express our sincere gratitude for your commitment to our cause. Your trust
+              in Yebora and your dedication to positive change are greatly appreciated.
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              If you have any questions or would like to stay updated on the campaign's progress,
+              please feel free to reach out to us. We're here to assist you and provide any
+              information you may need.
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Once again, thank you for choosing Yebora as your platform for making a difference in
+              our community. We look forward to having you join us in more campaigns in the future.
+            </p>
+
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                padding-top: 30px;
+                font-weight: 400;
+              "
+            >
+              Best regards <br />
+              The Yebora Team.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-divider border-width="0.1px" border-color="#2E3228" width="100%"></mj-divider>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#E4E7EC">
+        <mj-column padding="30px" width="100%" vertical-align="top">
+          <mj-text align="center">
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Terms</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Privacy</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Cookies</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/contact"
+              >Contact us</mj-link
+            >
+          </mj-text>
+
+          <mj-text
+            align="center"
+            font-size="12px"
+            letter-spacing="0.4px"
+            color="#595D5D"
+            line-height="16px"
+            font-family="Inter"
+          >
+            <p style="color: #94999a">
+              &copy; 2023 Yebora <br />
+              @hello.yebora.io
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+  <mj-style>
+    .custom-background { background-color: #FF5733; /* Replace with your desired background color */
+    }
+  </mj-style>
+</mjml>

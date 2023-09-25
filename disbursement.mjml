@@ -1,0 +1,217 @@
+<mjml>
+  <mj-head>
+    <mj-title>Yebora</mj-title>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@800;900;1000&display=swap"
+    />
+  </mj-head>
+
+  <mj-body>
+    <mj-container background-color="#fff">
+      <mj-section>
+        <mj-column vertical-align="top" width="50%">
+          <mj-image
+            align="left"
+            width="120px"
+            src="https://d148vllt214ymv.cloudfront.net/Frame.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="1px">
+        <mj-column vertical-align="top" width="100%">
+          <mj-text padding-top="0px" color="#868686">
+            <p
+              style="
+                color: #344054;
+                font-size: 18px;
+                line-height: 23.4px;
+                font-family: Inter;
+                font-weight: 500;
+              "
+            >
+              Dear {{campaignCreator}},
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              We hope this email finds you well. We are writing to inform you that your recent fund
+              disbursement to beneficiaries on the Yebora platform has been successfully completed.
+              This marks another significant milestone in your journey as a Yebora Creator, and we
+              would like to extend our congratulations for your commitment to making a positive
+              impact.
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Here are the details of the fund disbursement:
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Date of disbursement: {{disbursementDate}}
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Beneficiaries : {{listOfBeneficiaries}}
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Total Amount Disbursed: : {{totalAmountDisbursed}}
+            </p>
+
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              At Yebora, we are continually inspired by creators like you who use our platform to
+              drive positive change. Your work embodies our mission of connecting people and
+              resources to create a brighter future.
+            </p>
+
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              If you have any questions or require assistance with future fund disbursements or any
+              other aspect of your work on Yebora, please do not hesitate to reach out to our
+              dedicated support team. We are here to support you every step of the way.
+            </p>
+
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Once again, congratulations on your successful fund disbursement. We look forward to
+              witnessing your continued impact and success on the Yebora platform.
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              Thank you for being a valuable part of our community.
+            </p>
+
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                padding-top: 30px;
+                font-weight: 400;
+              "
+            >
+              Best regards <br />
+              The Yebora Team.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-divider border-width="0.1px" border-color="#2E3228" width="100%"></mj-divider>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#E4E7EC">
+        <mj-column padding="30px" width="100%" vertical-align="top">
+          <mj-text align="center">
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Terms</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Privacy</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+              >Cookies</mj-link
+            >
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/contact"
+              >Contact us</mj-link
+            >
+          </mj-text>
+
+          <mj-text
+            align="center"
+            font-size="12px"
+            letter-spacing="0.4px"
+            color="#595D5D"
+            line-height="16px"
+            font-family="Inter"
+          >
+            <p style="color: #94999a">
+              &copy; 2023 Yebora <br />
+              @hello.yebora.io
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+  <mj-style>
+    .custom-background { background-color: #FF5733; /* Replace with your desired background color */
+    }
+  </mj-style>
+</mjml>
