@@ -32,7 +32,7 @@
                 font-weight: 500;
               "
             >
-              Dear {{teamMemberName}},
+              Hello,
             </p>
             <p
               style="
