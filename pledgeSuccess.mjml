@@ -170,23 +170,33 @@
             <mj-link
               style="margin-right: 10px; color: #667085; text-decoration: underline"
               href="https://yebora.com/terms"
-              >Terms</mj-link
             >
+              <a style="margin: 2px 10px; color: #667085" href="https://yebora.com/terms">Terms</a>
+            </mj-link>
             <mj-link
               style="margin-right: 10px; color: #667085; text-decoration: underline"
               href="https://yebora.com/terms"
-              >Privacy</mj-link
             >
+              <a style="margin: 2px 10px; color: #667085" href="https://yebora.com/terms"
+                >Privacy</a
+              >
+            </mj-link>
             <mj-link
               style="margin-right: 10px; color: #667085; text-decoration: underline"
               href="https://yebora.com/terms"
-              >Cookies</mj-link
             >
+              <a style="margin: 2px 10px; color: #667085" href="https://yebora.com/terms"
+                >Cookies</a
+              >
+            </mj-link>
             <mj-link
               style="margin-right: 10px; color: #667085; text-decoration: underline"
               href="https://yebora.com/contact"
-              >Contact us</mj-link
             >
+              <a style="margin: 2px 10px; color: #667085" href="https://yebora.com/contact"
+                >Contact Us</a
+              >
+            </mj-link>
           </mj-text>
 
           <mj-text
@@ -199,7 +209,7 @@
           >
             <p style="color: #94999a">
               &copy; 2023 Yebora <br />
-              @hello.yebora.io
+              support@yebora.com
             </p>
           </mj-text>
         </mj-column>
