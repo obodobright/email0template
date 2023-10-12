@@ -1,0 +1,176 @@
+<mjml>
+  <mj-head>
+    <mj-title>Yebora</mj-title>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@800;900;1000&display=swap"
+    />
+  </mj-head>
+
+  <mj-body>
+    <mj-container background-color="#fff">
+      <mj-section>
+        <mj-column vertical-align="top" width="50%">
+          <mj-image
+            align="left"
+            width="120px"
+            src="https://d148vllt214ymv.cloudfront.net/Frame.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column vertical-align="top" width="100%">
+          <mj-text
+            font-size="40px"
+            line-height="48px"
+            font-weight="700"
+            color="#1B3554"
+            text-transform="capitalize"
+            padding-top="20px"
+            font-family="Inter"
+            align="center"
+          >
+            Disbursement Failed
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column vertical-align="top" width="100%">
+          <mj-text
+            font-size="24px"
+            line-height="48px"
+            font-weight="700"
+            color="#E72424"
+            text-transform="capitalize"
+            font-family="Inter"
+            align="center"
+          >
+            <!--[if mso | IE]>
+        <table
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          align="center"
+        >
+          <tr>
+            <td style="background-color:red;">
+      <![endif]-->
+            <div style="background-color: #9b060629">NGN {{amountDisbursed}}</div>
+            <!--[if mso | IE]>
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="1px">
+        <mj-column vertical-align="top" width="100%">
+          <mj-text padding-top="0px" color="#868686">
+            <p
+              style="
+                color: #344054;
+                font-size: 18px;
+                line-height: 23.4px;
+                font-family: Inter;
+                font-weight: 700;
+                text-align: center;
+              "
+            >
+              Hi {{firstName}}
+            </p>
+            <p
+              style="
+                color: #344054;
+                font-size: 16px;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+                text-align: center;
+              "
+            >
+              Unfortunately, the disbursement of NGN {{amountDisbursed}} to the beneficiary,
+              <span style="color: #328be0">{{beneficiary}}</span> was not successful.
+            </p>
+            <p
+              style="
+                color: #ffb82e;
+                font-size: 18px;
+                padding-top: 30px;
+                text-align: center;
+                line-height: 20.8px;
+                font-family: Inter;
+                font-weight: 400;
+              "
+            >
+              If you require any assistance or have any questions, please don't hesitate to reach
+              out to our support team
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-divider border-width="0.1px" border-color="#2E3228" width="100%"></mj-divider>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#E4E7EC">
+        <mj-column padding="30px" width="100%" vertical-align="top">
+          <mj-text align="center">
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+            >
+              <a style="margin: 2px 10px; color: #667085" href="https://yebora.com/terms">Terms</a>
+            </mj-link>
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+            >
+              <a style="margin: 2px 10px; color: #667085" href="https://yebora.com/terms"
+                >Privacy</a
+              >
+            </mj-link>
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/terms"
+            >
+              <a style="margin: 2px 10px; color: #667085" href="https://yebora.com/terms"
+                >Cookies</a
+              >
+            </mj-link>
+            <mj-link
+              style="margin-right: 10px; color: #667085; text-decoration: underline"
+              href="https://yebora.com/contact"
+            >
+              <a style="margin: 2px 10px; color: #667085" href="https://yebora.com/contact"
+                >Contact Us</a
+              >
+            </mj-link>
+          </mj-text>
+
+          <mj-text
+            align="center"
+            font-size="12px"
+            letter-spacing="0.4px"
+            color="#595D5D"
+            line-height="16px"
+            font-family="Inter"
+          >
+            <p style="color: #94999a">
+              &copy; 2023 Yebora <br />
+              support@yebora.com
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+  <mj-style>
+    .custom-background { background-color: #FF5733; /* Replace with your desired background color */
+    }
+  </mj-style>
+</mjml>
