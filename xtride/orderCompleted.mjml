@@ -12,8 +12,12 @@
       <!-- #076E871A -->
       <mj-section background-color="#e6f0f3">
         <mj-column vertical-align="top" width="100%">
-          <mj-image align="center" width="150px" src="logo.png" alt="" />
-          <!-- src="https://d148vllt214ymv.cloudfront.net/Frame.png" -->
+          <mj-image
+            align="center"
+            width="150px"
+            src="https://d1c4ttuejyxlh3.cloudfront.net/logo.png"
+            alt=""
+          />
         </mj-column>
       </mj-section>
       <mj-section>
@@ -198,7 +202,7 @@
             align="center"
             padding-top="50px"
             padding-bottom="50px"
-            src="footerimg.png"
+            src="https://d1c4ttuejyxlh3.cloudfront.net/footerimg.png"
             alt=""
           />
         </mj-column>
