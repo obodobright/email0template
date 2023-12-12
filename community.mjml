@@ -9,10 +9,11 @@
 
   <mj-body>
     <mj-container background-color="#fff">
-      <mj-section>
-        <mj-column vertical-align="top" width="50%">
+      <!-- #076E871A -->
+      <mj-section background-color="#e6f0f3">
+        <mj-column vertical-align="top" width="100%">
           <mj-image
-            align="left"
+            align="center"
             width="120px"
             src="https://d148vllt214ymv.cloudfront.net/Frame.png"
             alt=""
