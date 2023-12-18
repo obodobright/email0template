@@ -4,6 +4,20 @@
 
 **resetPassword.mjml:** {{firstName}} {{token}}
 
+**accountDisabled.mjml:** {{firstName}}
+
+**businessKycApproved.mjml:** {{firstName}}
+
+**businessKycRejected.mjml:** {{firstName}}
+
+**staffInvite.mjml:** {{firstName}}
+
+**ticketCreated.mjml:** {{firstName}}
+
+**ticketReply.mjml:** {{firstName}}
+
+**accountFlagged.mjml:** {{firstName}}
+
 **order.mjml**:
 
 Item {{item}}
