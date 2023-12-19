@@ -50,7 +50,7 @@
             align="left"
           >
             Hey there {{firstName}}, <br />
-           We regret to inform you that the auto-charging for an outstanding cash settlement has failed due to insufficient funds. Please log in and settle the outstanding amount to avoid any disruptions.
+           We regret to inform you that the auto-charging for an outstanding cash settlement of {{amount}} has failed due to insufficient funds. Please log in and settle the outstanding amount to avoid any disruptions.
 
     <br><br>
     Thank you,
@@ -214,6 +214,17 @@ Xtride Finance Team
               </div>
             </div>
           </mj-raw>
+        </mj-column>
+      </mj-section>
+       <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-text font-size="14px" color="#666666" align="center"
+            >Please contact support@xtridelink.com for any queries.
+          <br>
+          123 Main Street, Ikeja, Lagos, Nigeria
+          <br>
+          © 2023 - Xtridelink
+          </mj-text>
         </mj-column>
       </mj-section>
       <mj-section>

@@ -46,13 +46,13 @@
             line-height="21px"
             font-weight="400"
             color="#666"
-            text-transform="capitalize"
+            text-transform=""
             padding-top="0px"
             font-family="Inter"
             align="left"
           >
             Hey there {{firstName}}, <br />
-            We regret to notify you that your Xtride account has been flagged. For further information, please log in to your account or send an email to <a style="color:#000" href="mailto:support@xtridelink.com">support@xtridelink.com</a>. 
+            We regret to notify you that your Xtride account has been flagged because {{reason}}. <br> For further information, please log in to your account or send an email to <a style="color:#000" href="mailto:support@xtridelink.com">support@xtridelink.com</a>. 
             <br><br>
             Thank you, Xtride Support Team.
 
@@ -215,6 +215,17 @@
               </div>
             </div>
           </mj-raw>
+        </mj-column>
+      </mj-section>
+       <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-text font-size="14px" color="#666666" align="center"
+            >Please contact support@xtridelink.com for any queries.
+          <br>
+          123 Main Street, Ikeja, Lagos, Nigeria
+          <br>
+          © 2023 - Xtridelink
+          </mj-text>
         </mj-column>
       </mj-section>
       <mj-section>

@@ -295,6 +295,17 @@
       <mj-section>
         <mj-column width="100%" vertical-align="top">
           <mj-text font-size="14px" color="#666666" align="center"
+            >Please contact support@xtridelink.com for any queries.
+            <br />
+            123 Main Street, Ikeja, Lagos, Nigeria
+            <br />
+            © 2023 - Xtridelink
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-text font-size="14px" color="#666666" align="center"
             >Want to change how you receive these emails? You can
             <a href="/" style="margin: 0px 4px; color: #076e87">update </a> your preference or
             <a href="/" style="margin: 0px 4px; color: #076e87">unsubscribe </a> from our mailing

@@ -51,7 +51,10 @@
             align="left"
           >
             Hey there {{firstName}}, <br />
-            Congratulations! You now have administrator access to Xtride. We appreciate your efforts and skills. Kindly use your login credentials to gain access to the admin dashboard.
+            Congratulations! You now have administrator access to Xtride. We appreciate your efforts and skills. Kindly click on the link below to complete your sign up process.
+            <br><br>
+
+            <a href="{{link}}" style="color:black">Set Admin Password here</a>
         </mj-column>
       </mj-section>
 
@@ -212,7 +215,18 @@
           </mj-raw>
         </mj-column>
       </mj-section>
-      <mj-section>
+       <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-text font-size="14px" color="#666666" align="center"
+            >Please contact support@xtridelink.com for any queries.
+          <br>
+          123 Main Street, Ikea, Lagos, Nigeria
+          <br>
+          © 2023 - Xtridelink
+          </mj-text>
+        </mj-column>
+      </mj-section>
+       <mj-section>
         <mj-column width="100%" vertical-align="top">
           <mj-text font-size="14px" color="#666666" align="center"
             >Want to change how you receive these emails? You can
@@ -222,6 +236,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
+     
     </mj-container>
   </mj-body>
 </mjml>

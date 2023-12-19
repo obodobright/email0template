@@ -50,7 +50,8 @@
             align="left"
           >
             Hey there {{firstName}}, <br />
-            Your Xtride account has been disabled. If you think something is incorrect or if you need help, send an email to <a style="color:#000" href="mailto:support@xtridelink.com">support@xtridelink.com</a> and get in touch with our team. 
+            Your Xtride account has been disabled, because {{reason}}
+            <br> If you think something is incorrect or if you need help, send an email to <a style="color:#000" href="mailto:support@xtridelink.com">support@xtridelink.com</a> and get in touch with our team. 
             <br>
             <br>
             Thank you, Xtride Support Team.
@@ -213,6 +214,17 @@
               </div>
             </div>
           </mj-raw>
+        </mj-column>
+      </mj-section>
+       <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-text font-size="14px" color="#666666" align="center"
+            >Please contact support@xtridelink.com for any queries.
+          <br>
+          123 Main Street, Ikea, Lagos, Nigeria
+          <br>
+          © 2023 - Xtridelink
+          </mj-text>
         </mj-column>
       </mj-section>
       <mj-section>

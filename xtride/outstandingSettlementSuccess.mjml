@@ -50,7 +50,7 @@
             align="left"
           >
             Hey there {{firstName}}, <br />
-           Great news! Your outstanding cash settlement has been successfully processed. Thank you for your prompt action.
+           Great news! Your outstanding cash settlement of {{amount}} has been successfully processed. Thank you for your prompt action.
     <br><br>
        Thank you,
         Xtride Finance Team
@@ -213,6 +213,17 @@
               </div>
             </div>
           </mj-raw>
+        </mj-column>
+      </mj-section>
+       <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-text font-size="14px" color="#666666" align="center"
+            >Please contact support@xtridelink.com for any queries.
+          <br>
+          123 Main Street, Ikeja, Lagos, Nigeria
+          <br>
+          © 2023 - Xtridelink
+          </mj-text>
         </mj-column>
       </mj-section>
       <mj-section>

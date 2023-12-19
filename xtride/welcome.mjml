@@ -43,14 +43,15 @@
             line-height="21px"
             font-weight="700"
             color="#666"
-            text-transform="capitalize"
+            text-transform=""
             padding-top="0px"
             font-family="Inter"
             align="center"
           >
-            Hi {{firstName}}, Welcome to Xtridelink! We're thrilled to have you on board. Get ready
-            for seamless logistics solutions that make your business run smoother. Let's start your
-            journey together!
+            Hi {{firstName}}, <br />
+            Welcome to Xtridelink! We're thrilled to have you on board. Get ready for seamless
+            logistics solutions that make your business run smoother. Let's start your journey
+            together!
           </mj-text>
         </mj-column>
       </mj-section>
@@ -227,6 +228,17 @@
               </div>
             </div>
           </mj-raw>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%" vertical-align="top">
+          <mj-text font-size="14px" color="#666666" align="center"
+            >Please contact support@xtridelink.com for any queries.
+            <br />
+            123 Main Street, Ikeja, Lagos, Nigeria
+            <br />
+            © 2023 - Xtridelink
+          </mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
