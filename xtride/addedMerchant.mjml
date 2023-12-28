@@ -18,7 +18,7 @@
             src="https://d1c4ttuejyxlh3.cloudfront.net/logo.png"
             alt=""
           />
-          <!-- src="https://d148vllt214ymv.cloudfront.net/Frame.png" -->
+         
         </mj-column>
       </mj-section>
       <mj-section>
@@ -33,7 +33,7 @@
             font-family="Inter"
             align="center"
           >
-            Outstanding Cash Settlement Charge Successfully: Successful Settlement
+             Merchant Added Successfully
           </mj-text>
         </mj-column>
       </mj-section>
@@ -49,14 +49,10 @@
             font-family="Inter"
             align="left"
           >
-           <p style="#666">
+           <p style="color:#666">
             Hey there {{firstName}}, <br />
-           Great news! Your outstanding cash settlement of {{amount}} has been successfully processed. Thank you for your prompt action.
+          You have been successfully added as a merchant on Xtride!
            </p>
-    <br><br>
-       Thank you,
-        Xtride Finance Team
-
         </mj-column>
       </mj-section>
 
