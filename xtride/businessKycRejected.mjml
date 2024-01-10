@@ -44,14 +44,15 @@
             line-height="21px"
             font-weight="400"
             color="#666"
-            text-transform="capitalize"
+            text-transform=""
             padding-top="0px"
             font-family="Inter"
             align="left"
           >
             Hey there {{firstName}}, <br />
             We regret to inform you that your business KYC has been rejected due to the following
-            information that could not be verified {{reason}} We understand this may be
+            information that could not be verified
+            <span style="font-weight: 900">"{{reason}}"</span> We understand this may be
             disappointing, and we're here to assist you.
           </mj-text>
         </mj-column>

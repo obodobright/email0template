@@ -50,9 +50,8 @@
             align="center"
           >
             <p style="color: #666">
-              Hey there {{firstName}}, we just sent you a code, kindly provide the code to setup
-              your account. If you are not the one that initiated this code kindly ignore it for
-              security purposes.
+              Hey there, we just sent you a code, kindly provide the code to setup your account. If
+              you are not the one that initiated this code kindly ignore it for security purposes.
             </p>
           </mj-text>
         </mj-column>

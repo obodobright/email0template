@@ -1,0 +1,226 @@
+<mjml>
+  <mj-head>
+    <mj-title>Xtride</mj-title>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@800;900;1000&display=swap"
+    ></mj-font>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <mj-raw>
+      <!-- #076E871A -->
+    </mj-raw>
+    <mj-section background-color="#e6f0f3">
+      <mj-column vertical-align="top" width="100%">
+        <mj-image
+          align="center"
+          width="150px"
+          src="https://d1c4ttuejyxlh3.cloudfront.net/logo.png"
+          alt=""
+        ></mj-image>
+        <mj-raw>
+          <!-- src="https://d148vllt214ymv.cloudfront.net/Frame.png" -->
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text
+          font-size="32px"
+          line-height="48px"
+          font-weight="700"
+          color="#000"
+          text-transform="capitalize"
+          padding-top="10px"
+          font-family="Inter"
+          align="center"
+          >OTP for Rider Delivery</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text
+          font-size="14px"
+          line-height="21px"
+          font-weight="400"
+          color="#666"
+          text-transform="capitalize"
+          padding-top="0px"
+          font-family="Inter"
+          align="center"
+        >
+          <p style="color: #666">
+            Hey there, Your OTP for dispatch rider verification <br />
+            <span style="font-weight: 900; font-size: 20px">{{otpCode}}</span>
+          </p>
+          Please share with the rider for confirmation.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column vertical-align="top" width="100%">
+        <mj-image
+          align="center"
+          padding-top="50px"
+          padding-bottom="50px"
+          src="https://d1c4ttuejyxlh3.cloudfront.net/footerimg.png"
+          alt=""
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" border-top="1px solid #dedede">
+      <mj-column padding="30px" width="100%" vertical-align="top">
+        <mj-text align="center">
+          <mj-link style="margin-right: 10px; color: #667085" href="https://xtride.com/about">
+            <a
+              style="font-size: 16px; margin: 2px 10px; text-decoration: none; color: #667085"
+              href="https://xtride.com/about"
+              >About Xtride</a
+            >
+          </mj-link>
+          <mj-inline-element
+            style="border-right: 2px solid #b3b3b3; margin-right: 10px"
+          ></mj-inline-element>
+          <mj-link style="margin-right: 10px; color: #667085" href="https://xtride/terms">
+            <a
+              style="font-size: 16px; margin: 2px 10px; text-decoration: none; color: #667085"
+              href="https://xtride-business/terms"
+              >Privacy Policy</a
+            >
+          </mj-link>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-raw inline="true">
+          <!--  -->
+          <section
+            style="
+              display: flex;
+              text-align: center;
+              justify-content: center;
+              gap: 20px;
+              align-items: center;
+            "
+          >
+            <div
+              style="
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                gap: 20px;
+                align-items: center;
+              "
+            >
+              <div
+                style="
+                  width: 40px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #e7f1f3;
+                "
+              >
+                <a href="/">
+                  <img
+                    width="20"
+                    style="object-fit: cover"
+                    src="https://d1c4ttuejyxlh3.cloudfront.net/instagram.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 20px;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #e7f1f3;
+                "
+              >
+                <a href="/">
+                  <img
+                    width="20"
+                    style="object-fit: cover"
+                    src="https://d1c4ttuejyxlh3.cloudfront.net/twitter.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #e7f1f3;
+                "
+              >
+                <a href="/">
+                  <a href="/">
+                    <img
+                      width="20"
+                      style="object-fit: contain"
+                      src="https://d1c4ttuejyxlh3.cloudfront.net/facebook.png"
+                      alt=""
+                    />
+                  </a>
+                </a>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #e7f1f3;
+                "
+              >
+                <a href="/">
+                  <a href="/">
+                    <img
+                      style="object-fit: cover"
+                      src="https://d1c4ttuejyxlh3.cloudfront.net/yt.png"
+                      alt=""
+                    />
+                  </a>
+                </a>
+              </div>
+            </div>
+          </section>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%" vertical-align="top">
+        <mj-text font-size="14px" color="#666666" align="center"
+          >Please contact support@xtridelink.com for any queries.
+          <br />
+          123 Main Street, Ikeja, Lagos, Nigeria
+          <br />
+          © 2023 - Xtridelink</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%" vertical-align="top">
+        <mj-text font-size="14px" color="#666666" align="center"
+          >Want to change how you receive these emails? You can
+          <a href="/" style="margin: 0px 4px; color: #076e87">update </a> your preference or
+          <a href="/" style="margin: 0px 4px; color: #076e87">unsubscribe </a> from our mailing
+          list.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

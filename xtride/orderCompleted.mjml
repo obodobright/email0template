@@ -43,15 +43,14 @@
             line-height="21px"
             font-weight="400"
             color="#666"
-            text-transform="capitalize"
+            text-transform=""
             padding-top="0px"
             font-family="Inter"
             align="center"
           >
             <p style="color: #666">
-              Hey there {{firstName}}, we have noted your order and wish to inform your that your
-              order is being processed, attached are the necessary and needed details for you to
-              keep track of your order.
+              Hey there {{firstName}}, congratulations! Your order has been safely delivered. Do you
+              need anything else? Xtridelink is here for all your logistics needs.
             </p>
           </mj-text>
         </mj-column>
@@ -184,7 +183,7 @@
       <mj-section padding-bottom="1px">
         <mj-column vertical-align="top" width="100%">
           <mj-button
-            href="https://yebora.com/dashboard"
+            href="https://xtridelink.com/"
             align="center"
             width="70%"
             background-color="#F1636A"

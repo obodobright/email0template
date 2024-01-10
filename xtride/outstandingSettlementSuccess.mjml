@@ -37,29 +37,30 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section>
+
+      <mj-section padding-bottom="1px">
         <mj-column>
           <mj-text
             font-size="14px"
             line-height="21px"
             font-weight="400"
             color="#666"
-            text-transform="capitalize"
+            text-transform=""
             padding-top="0px"
             font-family="Inter"
             align="left"
           >
-           <p style="#666">
-            Hey there {{firstName}}, <br />
-           Great news! Your outstanding cash settlement of {{amount}} has been successfully processed. Thank you for your prompt action.
-           </p>
-    <br><br>
-       Thank you,
-        Xtride Finance Team
+            <p style="color: #666">
+              Hey there {{firstName}}, <br />
+              Great news! Your outstanding cash settlement of {{amount}} has been successfully
+              processed. Thank you for your prompt action.
 
+              <br /><br />
+              Thank you, Xtride Finance Team
+            </p>
+          </mj-text>
         </mj-column>
       </mj-section>
-
       <mj-section>
         <mj-column vertical-align="top" width="100%">
           <mj-image
@@ -94,93 +95,123 @@
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-raw inline="true" >
-          <!--  -->
-            <section style="display: flex; text-align:center; justify-content: center; gap: 20px; align-items:center">
-            <div style="display: flex; text-align:center; justify-content: center; gap: 20px; align-items:center">
-              <div
-                style="
-                  width: 40px;
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  height: 40px;
-                  border-radius: 50%;
-                  background-color: #e7f1f3;
-                "
-              >             
-                <a href="/">
-                    <img width="20" style="object-fit:cover"  src="https://d1c4ttuejyxlh3.cloudfront.net/instagram.png"
-            alt="" >
-                </a>
-                
-              </div>
+          <mj-raw inline="true">
+            <!--  -->
+            <section
+              style="
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                gap: 20px;
+                align-items: center;
+              "
+            >
               <div
                 style="
                   display: flex;
+                  text-align: center;
                   justify-content: center;
-                  align-items: center;
                   gap: 20px;
-                  width: 40px;
-                  height: 40px;
-                  border-radius: 50%;
-                  background-color: #e7f1f3;
-                "
-              >
-                 <a href="/">
-                    <img width="20" style="object-fit:cover"  src="https://d1c4ttuejyxlh3.cloudfront.net/twitter.png"
-            alt="" >
-                </a>
-              </div>
-              <div
-                style="
-                  display: flex;
-                  justify-content: center;
                   align-items: center;
-                  width: 40px;
-                  height: 40px;
-                  border-radius: 50%;
-                  background-color: #e7f1f3;
                 "
               >
-                <a href="/">
-                   <a href="/">
-                    <img width="20" style="object-fit:contain"  src="https://d1c4ttuejyxlh3.cloudfront.net/facebook.png"
-            alt="" >
-                </a>
-                </a>
+                <div
+                  style="
+                    width: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: #e7f1f3;
+                  "
+                >
+                  <a href="/">
+                    <img
+                      width="20"
+                      style="object-fit: cover"
+                      src="https://d1c4ttuejyxlh3.cloudfront.net/instagram.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: #e7f1f3;
+                  "
+                >
+                  <a href="/">
+                    <img
+                      width="20"
+                      style="object-fit: cover"
+                      src="https://d1c4ttuejyxlh3.cloudfront.net/twitter.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: #e7f1f3;
+                  "
+                >
+                  <a href="/">
+                    <a href="/">
+                      <img
+                        width="20"
+                        style="object-fit: contain"
+                        src="https://d1c4ttuejyxlh3.cloudfront.net/facebook.png"
+                        alt=""
+                      />
+                    </a>
+                  </a>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: #e7f1f3;
+                  "
+                >
+                  <a href="/">
+                    <a href="/">
+                      <img
+                        style="object-fit: cover"
+                        src="https://d1c4ttuejyxlh3.cloudfront.net/yt.png"
+                        alt=""
+                      />
+                    </a>
+                  </a>
+                </div>
               </div>
-              <div
-                style="
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  width: 40px;
-                  height: 40px;
-                  border-radius: 50%;
-                  background-color: #e7f1f3;
-                "
-              >
-                <a href="/">
-                   <a href="/">
-                    <img style="object-fit:cover"  src="https://d1c4ttuejyxlh3.cloudfront.net/yt.png"
-            alt="" >
-                </a>
-                </a>
-              </div>
-            </div>
             </section>
           </mj-raw>
         </mj-column>
       </mj-section>
-       <mj-section>
+      <mj-section>
         <mj-column width="100%" vertical-align="top">
           <mj-text font-size="14px" color="#666666" align="center"
             >Please contact support@xtridelink.com for any queries.
-          <br>
-          123 Main Street, Ikeja, Lagos, Nigeria
-          <br>
-          © 2023 - Xtridelink
+            <br />
+            123 Main Street, Ikeja, Lagos, Nigeria
+            <br />
+            © 2023 - Xtridelink
           </mj-text>
         </mj-column>
       </mj-section>
